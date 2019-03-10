@@ -1,4 +1,7 @@
 from django.shortcuts import render
+
+# another view test
+
 from .models import Customer, Profession, DataSheet, Document
 from .serializers import CustomerSerializer, ProfessionSerializer, DataSheetSerializer, DocumentSerializer
 from rest_framework import viewsets
